@@ -5,7 +5,7 @@ from models import db, Plant
 
 with app.app_context():
 
-    Plant.query.delete()
+    # Plant.query.delete()
 
     aloe = Plant(
         id=1,
